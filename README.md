@@ -55,7 +55,7 @@ Create a `gitAccounts.json` file in the same directory as the script with the fo
 Clone the repository or download the `Switch-GitAccount.ps1` script directly.  
 
 ```bash  
-git clone https://github.com/yourusername/Switch-GitAccount.git  
+git clone https://github.com/jhchein/Switch-GitAccount.git  
 cd Switch-GitAccount  
 ```  
 
@@ -79,24 +79,8 @@ Once the script and configuration file are ready, you can run the script to swit
 
 ```powershell  
 .\Switch-GitAccount.ps1 -account personal -Local  
-```  
-
-## Acknowledgements  
-
-- This script utilizes PowerShell for configuration management.  
-- Inspired by the need to manage multiple Git profiles efficiently.  
-
-## Responsible Usage Considerations  
-
-While this script is simple and straightforward, it is important to use it responsibly:  
-
-- **Backup Configurations**: Always ensure you have backups of your current Git configurations before making changes.  
-- **Sensitive Information**: Avoid hardcoding sensitive information directly into the script or JSON file. Use environment variables or secure storage solutions if needed.  
+```
 
 ## License  
    
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).  
-
-## Trademarks  
-
-This project may contain trademarks or logos for projects, products, or services. Unauthorized use of any trademarks or logos is prohibited and subject to applicable laws and regulations.  
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). 
