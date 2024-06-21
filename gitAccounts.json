@@ -1,0 +1,12 @@
+{
+  "accounts": {
+    "work": {
+      "user.name": "jhchein",
+      "user.email": "hehein@microsoft.com"
+    },
+    "audi": {
+      "user.name": "jhchein-audi",
+      "user.email": "extern.hendrik.hein@audi.de"
+    }
+  }
+}
